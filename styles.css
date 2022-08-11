@@ -164,6 +164,11 @@ header h3 {
     justify-content: space-between;
   }
 
+  .more-info .stats, .more-info .media{
+    justify-content: flex-start;
+
+  }
+
   .container {
     width: 70%;
     margin: 0 auto;
