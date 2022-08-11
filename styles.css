@@ -1,0 +1,171 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1f1f1f;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  letter-spacing: 4px;
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+header h3 {
+  padding: 40px 0;
+}
+
+.score-container {
+  background-color: rgb(47, 41, 41);
+
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  width: 260px;
+  margin: 0 auto;
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.game-level,
+.score-display,
+.team-name {
+  display: flex;
+  justify-content: center;
+}
+
+.game-level {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 100;
+}
+
+.score-display {
+  font-size: 60px;
+  color: #00ffbc;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.score-display>div:nth-child(2) {
+  color: #fff;
+}
+
+.team-name {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 100;
+}
+
+.team-name>div:nth-child(2) {
+  text-align: right;
+}
+
+.more-info {
+  /* display:block !important; */
+  font-size: 15px;
+  color: #00ffbc;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  padding: 12px;
+}
+
+
+.more-info i {
+  color: #fff;
+}
+
+.card>div:not(:first-child) {
+  justify-content: space-between;
+}
+
+.row {
+  /* justify-content: space-between; */
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.more-info>.row:first-child {
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats,
+.media {
+  display: flex;
+  margin: 0;
+  justify-content: flex-start;
+  font-size: 12px;
+
+}
+
+/* .stats {
+  margin-top: 4px;
+} */
+
+.media {
+  color: #fff;
+}
+
+.more-info .row>div {
+  margin-right: 10px;
+}
+
+.container {
+
+  padding-top: 20px;
+}
+
+.notification.active {
+  color: #ffd400;
+  text-shadow: 0 0 10px #ffd400;
+  /* display: block; */
+}
+
+.more-btn,
+.stats,
+.media,
+.notification {
+  cursor: pointer;
+}
+
+.more-btn:hover,
+.stats>div:hover {
+  color: #fff;
+}
+
+.media>div:hover {
+  color: #00ffbc;
+}
+
+.hide {
+  display: none !important;
+}
+
+@media (min-width: 768px){
+  .row{
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
