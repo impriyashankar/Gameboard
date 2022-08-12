@@ -13,7 +13,7 @@
 
 
 ## General Information
-I wanted to apply my knowledge of jquery into creating a simple app that uses even-handlers for user interaction.
+I wanted to apply my knowledge of jquery into creating a simple app that uses the concept of DOM traversing for user interaction.
 Gameboard is creating a scoreboard that displays NBA scores from around the league. 
 It allows the user to:
 - Click the More link to see the dropdown menu, 
