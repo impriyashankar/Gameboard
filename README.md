@@ -1,4 +1,4 @@
-# Gameboard
+# Gameboard 
 
 # Gameboard - scoreboard app
 > A scoreboard mock-up project to display NBA scores of different teams. 
